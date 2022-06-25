@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { TwitterCard } from "../components/TwitterCard";
+import { TwitterCard } from "../component/TwitterCard";
 
 const Home: NextPage = () => {
   return (
