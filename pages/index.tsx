@@ -1,7 +1,7 @@
-// import type { NextPage } from "next";
+import type { NextPage } from "next";
 import { useState } from "react";
 
-const Home = () => {
+const Home: NextPage = () => {
   const [text, setText] = useState("");
   const [todos, setTodos] = useState([]);
 
